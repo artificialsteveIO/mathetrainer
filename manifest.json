@@ -1,0 +1,9 @@
+{ 
+    "name": "mathe_trainer", 
+    "short_name": "mathe_trainer", 
+    "theme_color": "#406586", 
+    "background_color": "#7ca6b3", 
+    "display": "fullScreen", 
+    "orientation": "portrait", 
+    "scope": "/",  "start_url": "/"
+}

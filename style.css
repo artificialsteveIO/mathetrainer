@@ -1,0 +1,92 @@
+body{
+    background-color: #7ca6b3;
+}
+.upper{
+    display: flex;
+    background-color: #4065867c;
+    height: 12vh;
+    margin: 0;
+    padding: 5vw;
+
+    justify-content: center; /* align horizontal */
+    align-items: center; /* align vertical */
+}
+.aufgabe{
+    position: relative;
+    background-color: #406586;
+    width: 40vw;
+    height: 15vw;
+    text-align: center;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 5px 5px #0000007c;
+}
+.ausgabe{
+    position: relative;
+    background-color: #406586;
+    width: 40vw;
+    height: 15vw;
+    text-align: center;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 5px 5px #0000007c;
+}
+p{
+    color: white;
+    font-size: 8vw;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    user-select: none;
+}
+.uptext{
+    margin: 10px;
+}
+.tasten{
+    background-color: #4f648a9f;
+    width: 96.5vw;
+    height: 60vh;
+    display: grid;
+    margin-top: 4vh;
+    padding-top: 10px;
+    grid-template-areas:
+    "0 1 2"
+    "3 4 5"
+    "6 7 8"
+    "9 _ _";
+    grid-template-columns: auto;
+    gap: 5px;
+}
+#richtigBox{
+    display: flex;
+    justify-content: center; /* align horizontal */
+    align-items: center; /* align vertical */
+
+    margin: auto;
+    margin-top: 40px;
+    background-color: #21a032;
+    border-radius: 5px;
+    box-shadow: 5px 5px #00000067;
+    width: 50vw;
+    height: 7vh;
+    text-align: center;
+    transition: opacity 300ms;
+    opacity: 0;
+}
+#richtigBox p{
+    color: #90ff9f;
+}
+.button{
+    background-color: #476279;
+    transition: background-color 100ms;
+    margin: auto;
+    width: 12vw;
+    height: 5vw;
+    border-radius: 10px;
+    
+    display: flex;
+    justify-content: center; /* align horizontal */
+    align-items: center; /* align vertical */
+    padding: 25px;
+}
+.button:active{
+    background-color: #4d7da5;
+}
