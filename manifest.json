@@ -5,5 +5,27 @@
     "background_color": "#7ca6b3", 
     "display": "fullScreen", 
     "orientation": "portrait", 
-    "scope": "/",  "start_url": "/"
+    "scope": "/",  "start_url": "/",
+    "icons": [
+        {
+            "src": "/img/math_icon.png",
+            "sizes": "192x",
+            "type": "image/png"
+        },
+        {
+            "src": "/img/math_icon.png",
+            "sizes": "256x",
+            "type": "image/png"
+        },
+        {
+            "src": "/img/math_icon.png",
+            "sizes": "384x",
+            "type": "image/png"
+        },
+        {
+            "src": "/img/math_icon.png",
+            "sizes": "512x",
+            "type": "image/png"
+        }
+    ]
 }
